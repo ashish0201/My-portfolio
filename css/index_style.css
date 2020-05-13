@@ -38,9 +38,10 @@ header{
 
 .left-name{
     display:block;
-    margin: 0 auto;
-    font-size: 100%;
+    
+    font-size: 120%;
     color:#ffffff;
+    
 
 }
 
@@ -49,9 +50,11 @@ nav a{
     color: black;
     text-decoration: none;
     display: block;
-    padding: 1%;
+    margin: 0 auto;
     margin: 10% 20% 10% 20%;
-    font-size: 3vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     color: rgb(255, 255, 255);
     font-variant: small-caps;
 
@@ -63,7 +66,7 @@ nav a{
     height:110vh;
     
     background-image:    url("../imgs/background_3.jpg");
-    background-size:     100%;                      /* <------ */
+    background-size:     150%;                      /* <------ */
     background-repeat:   no-repeat;
     
 }
@@ -74,7 +77,7 @@ nav a{
     left: 21%;
     height: 70%;
     width: 70%;
-    margin-bottom: 10%;
+    
 }
 
 .img-home{
