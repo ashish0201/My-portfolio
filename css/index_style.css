@@ -1,10 +1,14 @@
-body,html{
-    margin:0%;
+body{
+   
+    background:    url("../imgs/body-of-water-between-green-leaf-trees-709552.jpg") no-repeat center center fixed;               /* <------ */
+   
 }
 
 body, html {
+    margin:0%;
     height: 100%;
     width: 100%;
+    background-color: blanchedalmond;
 }
 
 header{
@@ -65,8 +69,8 @@ nav a{
     width: 100%;
     height:110vh;
     
-    background-image:    url("../imgs/background_3.jpg");
-    background-size:     150%;                      /* <------ */
+    background-image:    url("../imgs/body-of-water-between-green-leaf-trees-709552.jpg");
+    background-size:     100em;                      /* <------ */
     background-repeat:   no-repeat;
     
 }
@@ -111,6 +115,7 @@ nav a{
 #about{
   float:right;
   margin-left: 22%;
+  margin-top: 0%;
 }
 
 #experience{
